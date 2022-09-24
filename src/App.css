@@ -634,7 +634,7 @@ span {
     font-size: 50%;
   }
   .container {
-    padding: 0 1.5rem;
+    padding: 0 2rem;
     max-width: 45rem;
   }
   .header {
@@ -645,29 +645,38 @@ span {
   }
 
   .hero {
+    height: 80vh;
     grid-template-columns: 1fr;
   }
 
   h4 {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
   .hero-text-box h1 {
-    font-size: 2.8rem;
+    font-size: 4.5rem;
     margin-bottom: 2rem;
+    margin-top: 3.4rem;
   }
   span {
-    font-size: 2.8rem;
+    font-size: 4rem;
   }
-
+  .sticky .section-hero {
+    margin-top: 8rem;
+  }
   .hero-text-box p {
-    font-size: 1.4rem;
+    font-size: 2rem;
     width: 100%;
+    margin-bottom: 3rem;
   }
 
   .hero-text-box .btn {
-    font-size: 1.4rem;
+    font-size: 2.4rem;
     padding: 1rem 2rem;
-    margin-top: 2rem;
+    margin-top: 3.4rem;
+    margin-bottom: 3.4rem;
+  }
+  .social-links {
+    gap: 3rem;
   }
 
   .hero-img-box {

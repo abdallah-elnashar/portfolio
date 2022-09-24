@@ -49,12 +49,12 @@ const NavBar = () => {
               </a>
             </li>
             <button className="nav-btn nav-close-btn" onClick={showNavBar}>
-              <FaTimes />
+              <FaTimes size={20} />
             </button>
           </ul>
         </nav>
         <button className="nav-btn" onClick={showNavBar}>
-          <FaBars />
+          <FaBars size={20} />
         </button>
       </header>
     </Fragment>
