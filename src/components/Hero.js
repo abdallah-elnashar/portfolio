@@ -18,10 +18,18 @@ const Hero = () => {
               I’m a software developer specializing in building (and
               occasionally designing) exceptional digital websites.
             </p>
-
-            <a href="#about" class="btn">
-              Learn more
-            </a>
+            <div className="cv">
+              <a href="#about" class="btn">
+                Learn more
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1yb1fR-iZEs0r6zbbnl_YHjjSbhUVR885/view"
+                target="blank"
+                class="btn"
+              >
+                Resume
+              </a>
+            </div>
             <div className="social-links">
               <a target="blank" href="https://github.com/abdallah-elnashar">
                 <svg

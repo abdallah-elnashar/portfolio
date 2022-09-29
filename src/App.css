@@ -649,6 +649,14 @@ span {
   }
 }
 
+/*  */
+
+@media (max-width: 700px) {
+  .cv {
+    display: flex;
+  }
+}
+
 /* mobile screen below 450px  */
 
 @media (max-width: 500px) {
