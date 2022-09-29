@@ -531,7 +531,10 @@ span {
   text-align: center;
   cursor: pointer;
 }
-
+.contact button a {
+  text-decoration: none;
+  color: var(--fuschia);
+}
 .contact button:hover {
   background-color: var(--fuschia-tint);
   color: var(--lightest-slate);
