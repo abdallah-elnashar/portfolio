@@ -9,7 +9,7 @@ const Contact = () => {
           back to you!
         </p>
         <button className="btn">
-          <a>Say HI</a>
+          <a href="mailto:abdallahelnashar480@gmail.com">Say HI</a>
         </button>
       </div>
     </div>
