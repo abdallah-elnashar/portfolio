@@ -12,7 +12,7 @@ const ProjectItem = (props) => {
       className="project-card"
     >
       <div className="project-img-box">
-        <img src={profileImg} alt="" className="project-img" />
+        <img src={props.image} alt="lk" className="project-img" />
       </div>
       <div className="project-text-box">
         <span>{props.tag}</span>
@@ -20,10 +20,10 @@ const ProjectItem = (props) => {
         <p className="description">{props.description}</p>
       </div>
       <div className="project-btn">
-        <a href="#d">
+        <a href={`${props.liveLink}`} target="blank">
           <AiFillEye size={40} />
         </a>
-        <a href="#d">
+        <a href={`${props.sourceCode}`} target="blank">
           <AiOutlineGithub size={40} />
         </a>
       </div>

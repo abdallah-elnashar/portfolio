@@ -407,6 +407,13 @@ span {
   box-shadow: 0 0.1rem 1rem var(--dark-slate);
 }
 
+/* .project-card .project-img-box {
+  height: 50%;
+}
+.project-card .project-text-box {
+  height: 30%;
+} */
+
 .project-card:hover {
   box-shadow: 0 0.4rem 2rem var(--dark-slate);
 }
@@ -436,7 +443,6 @@ span {
 
 .project-img {
   width: 100%;
-
   object-fit: cover;
 }
 
