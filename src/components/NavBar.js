@@ -29,13 +29,13 @@ const NavBar = () => {
         <nav ref={navRef}>
           <ul>
             <li>
-              <a href="#about" onClick={showNavBar}>
-                <span>01.</span> About
+              <a href="#home" onClick={showNavBar}>
+                <span>01.</span> Home
               </a>
             </li>
             <li>
               <a href="#about" onClick={showNavBar}>
-                <span>02.</span> Skills
+                <span>02.</span> About
               </a>
             </li>
             <li>

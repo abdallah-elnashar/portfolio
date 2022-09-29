@@ -5,7 +5,7 @@ import NavBar from "./NavBar";
 const Hero = () => {
   return (
     <Fragment>
-      <section className="section-hero">
+      <section className="section-hero" id="home">
         <NavBar />
         <div className="hero container grid">
           <div className="hero-text-box">
